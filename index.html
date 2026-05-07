@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>AutoDash CSV | Dashboard automatisation</title>
+  <meta name="description" content="Dashboard portfolio basé sur un fichier CSV." />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="bg-slate-950 text-white">
+  <header class="border-b border-white/10 bg-slate-950/90 backdrop-blur sticky top-0 z-50">
+    <nav class="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-11 h-11 rounded-2xl bg-cyan-400 text-slate-950 flex items-center justify-center font-black">
+          AD
+        </div>
+        <div>
+          <h1 class="font-bold leading-tight">AutoDash CSV</h1>
+          <p class="text-xs text-slate-400">Dashboard basé sur fichier CSV</p>
+        </div>
+      </div>
+
+      <div class="hidden md:flex items-center gap-3 text-sm">
+        <button class="tab-btn active" data-tab="overview">Vue d’ensemble</button>
+        <button class="tab-btn" data-tab="data">Données</button>
+        <button class="tab-btn" data-tab="clients">Clients</button>
+        <button class="tab-btn" data-tab="products">Produits</button>
+        <button class="tab-btn" data-tab="import">Import CSV</button>
+      </div>
+
+      <button id="mobileMenuBtn" class="md:hidden text-2xl">☰</button>
+    </nav>
+
+    <div id="mobileMenu" class="hidden md:hidden px-6 pb-5 space-y-2">
+      <button class="mobile-tab-btn active" data-tab="overview">Vue d’ensemble</button>
+      <button class="mobile-tab-btn" data-tab="data">Données</button>
+      <button class="mobile-tab-btn" data-tab="clients">Clients</button>
+      <button class="mobile-tab-btn" data-tab="products">Produits</button>
+      <button class="mobile-tab-btn" data-tab="import">Import CSV</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden">
+      <div class="absolute inset-0 bg-gradient-to-br from-cyan-500/20 via-slate-950 to-blue-600/10"></div>
+
+      <div class="relative max-w-7xl mx-auto px-6 py-16">
+        <p class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-cyan-400/10 text-cyan-300 border border-cyan-400/20 text-sm font-semibold">
+          <span class="w-2 h-2 rounded-full bg-cyan-300"></span>
+          Projet portfolio — outil interne pour PME
+        </p>
+
+        <h2 class="mt-6 text-4xl md:text-6xl font-black tracking-tight max-w-4xl">
+          Analyse automatique d’un fichier CSV client.
+        </h2>
+
+        <p class="mt-6 text-lg text-slate-300 max-w-3xl">
+          Ce dashboard lit un fichier CSV, calcule les indicateurs, filtre les données,
+          affiche des graphiques et permet d’exporter les résultats.
+        </p>
+
+        <div class="mt-8 flex flex-wrap gap-3">
+          <button id="reloadCsvBtn" class="px-6 py-3 rounded-2xl bg-cyan-400 text-slate-950 font-bold hover:bg-cyan-300 transition">
+            Recharger le CSV
+          </button>
+
+          <button id="exportBtn" class="px-6 py-3 rounded-2xl bg-white/10 border border-white/10 hover:bg-white/15 transition font-bold">
+            Exporter les données filtrées
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 pb-20">
+      <div id="statusBox" class="hidden mb-6 rounded-2xl border border-yellow-400/30 bg-yellow-400/10 text-yellow-200 p-4 text-sm"></div>
+
+      <section id="overview" class="tab-panel active">
+        <div class="grid md:grid-cols-4 gap-4">
+          <div class="kpi">
+            <span>Chiffre d’affaires payé</span>
+            <strong id="totalRevenue">0 €</strong>
+          </div>
+
+          <div class="kpi">
+            <span>Commandes</span>
+            <strong id="totalOrders">0</strong>
+          </div>
+
+          <div class="kpi">
+            <span>Panier moyen</span>
+            <strong id="averageOrder">0 €</strong>
+          </div>
+
+          <div class="kpi">
+            <span>Meilleur canal</span>
+            <strong id="bestChannel">-</strong>
+          </div>
+        </div>
+
+        <div class="mt-8 grid lg:grid-cols-3 gap-6">
+          <div class="lg:col-span-2 panel-card">
+            <div class="flex items-center justify-between mb-6">
+              <div>
+                <h3 class="text-2xl font-black">Chiffre d’affaires par canal</h3>
+                <p class="text-slate-400 text-sm mt-1">Basé sur les lignes payées du CSV.</p>
+              </div>
+            </div>
+            <canvas id="channelChart" height="130"></canvas>
+          </div>
+
+          <div class="panel-card">
+            <h3 class="text-2xl font-black">Répartition des statuts</h3>
+            <p class="text-slate-400 text-sm mt-1 mb-6">Payé, en attente, annulé.</p>
+            <canvas id="statusChart" height="220"></canvas>
+          </div>
+        </div>
+
+        <div class="mt-8 panel-card">
+          <h3 class="text-2xl font-black">Évolution du chiffre d’affaires</h3>
+          <p class="text-slate-400 text-sm mt-1 mb-6">Montants payés regroupés par mois.</p>
+          <canvas id="monthlyChart" height="90"></canvas>
+        </div>
+      </section>
+
+      <section id="data" class="tab-panel">
+        <div class="panel-card">
+          <div class="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6">
+            <div>
+              <h3 class="text-2xl font-black">Données CSV</h3>
+              <p class="text-slate-400 text-sm mt-1">Recherche, filtres et tableau complet.</p>
+            </div>
+
+            <div class="grid sm:grid-cols-3 gap-3 w-full lg:w-auto">
+              <div>
+                <label class="label">Recherche</label>
+                <input id="searchInput" class="input" type="text" placeholder="Client, produit..." />
+              </div>
+
+              <div>
+                <label class="label">Canal</label>
+                <select id="channelFilter" class="input">
+                  <option value="all">Tous</option>
+                </select>
+              </div>
+
+              <div>
+                <label class="label">Statut</label>
+                <select id="statusFilter" class="input">
+                  <option value="all">Tous</option>
+                  <option value="Payé">Payé</option>
+                  <option value="En attente">En attente</option>
+                  <option value="Annulé">Annulé</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-6 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4">
+            <p id="resultCount" class="text-cyan-300 font-semibold">0 résultat</p>
+            <button id="resetFiltersBtn" class="px-5 py-3 rounded-xl bg-white/10 hover:bg-white/15 border border-white/10">
+              Réinitialiser les filtres
+            </button>
+          </div>
+
+          <div class="mt-6 overflow-x-auto rounded-2xl border border-white/10">
+            <table class="w-full text-sm">
+              <thead class="bg-slate-900 text-slate-300">
+                <tr>
+                  <th class="table-head">ID</th>
+                  <th class="table-head">Date</th>
+                  <th class="table-head">Client</th>
+                  <th class="table-head">Produit</th>
+                  <th class="table-head">Canal</th>
+                  <th class="table-head">Statut</th>
+                  <th class="table-head text-right">Montant</th>
+                </tr>
+              </thead>
+              <tbody id="tableBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="clients" class="tab-panel">
+        <div class="panel-card">
+          <h3 class="text-2xl font-black">Analyse clients</h3>
+          <p class="text-slate-400 text-sm mt-1">Classement des clients par chiffre d’affaires payé.</p>
+
+          <div class="mt-8 grid lg:grid-cols-2 gap-6">
+            <div class="bg-slate-900/70 rounded-3xl p-5 border border-white/10">
+              <div class="h-[420px]">
+                <canvas id="clientsChart"></canvas>
+              </div>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl border border-white/10">
+              <table class="w-full text-sm">
+                <thead class="bg-slate-900 text-slate-300">
+                  <tr>
+                    <th class="table-head">Client</th>
+                    <th class="table-head text-right">CA payé</th>
+                    <th class="table-head text-right">Commandes</th>
+                  </tr>
+                </thead>
+                <tbody id="clientsTable"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="products" class="tab-panel">
+        <div class="panel-card">
+          <h3 class="text-2xl font-black">Analyse produits</h3>
+          <p class="text-slate-400 text-sm mt-1">Quels services rapportent le plus ?</p>
+
+          <div class="mt-8 grid lg:grid-cols-2 gap-6">
+            <div class="bg-slate-900/70 rounded-3xl p-5 border border-white/10">
+                <div class="h-[420px]">
+                <canvas id="productsChart"></canvas>
+                </div>
+            </div>
+
+            <div class="overflow-x-auto rounded-2xl border border-white/10">
+              <table class="w-full text-sm">
+                <thead class="bg-slate-900 text-slate-300">
+                  <tr>
+                    <th class="table-head">Produit</th>
+                    <th class="table-head text-right">CA payé</th>
+                    <th class="table-head text-right">Ventes</th>
+                  </tr>
+                </thead>
+                <tbody id="productsTable"></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="import" class="tab-panel">
+        <div class="panel-card">
+          <h3 class="text-2xl font-black">Importer un autre CSV</h3>
+          <p class="text-slate-400 text-sm mt-1 max-w-2xl">
+            Tu peux remplacer les données du dashboard avec un autre fichier CSV ayant les colonnes :
+            id, date, client, produit, canal, region, commercial, statut, montant, duree_jours, satisfaction.
+          </p>
+
+          <div class="mt-8 border border-dashed border-cyan-400/40 bg-cyan-400/5 rounded-[2rem] p-10 text-center">
+            <input id="csvInput" type="file" accept=".csv" class="hidden" />
+
+            <button onclick="document.getElementById('csvInput').click()" class="px-7 py-4 rounded-2xl bg-cyan-400 text-slate-950 font-black hover:bg-cyan-300 transition">
+              Choisir un fichier CSV
+            </button>
+
+            <p id="importFileName" class="mt-4 text-slate-400 text-sm">Aucun fichier sélectionné.</p>
+          </div>
+
+          <div class="mt-8 bg-slate-900/70 rounded-3xl p-6 border border-white/10">
+            <h4 class="font-black text-lg">Format attendu</h4>
+            <pre class="mt-4 overflow-x-auto text-sm text-slate-300"><code>id,date,client,produit,canal,region,commercial,statut,montant,duree_jours,satisfaction
+CMD-0001,2026-01-05,Cabinet Martin,Site vitrine,LinkedIn,Île-de-France,Yanis,Payé,650,4,5</code></pre>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <section class="bg-cyan-400 text-slate-950">
+      <div class="max-w-7xl mx-auto px-6 py-16 flex flex-col md:flex-row items-center justify-between gap-8">
+        <div>
+          <h2 class="text-3xl font-black">Exemple de mission vendable</h2>
+          <p class="mt-2 text-slate-800">
+            Transformer un fichier Excel/CSV en dashboard clair avec filtres, graphiques et exports.
+          </p>
+        </div>
+
+        <a href="mailto:contact@example.com" class="px-7 py-4 rounded-2xl bg-slate-950 text-white font-bold hover:bg-slate-800 transition">
+          Me contacter
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-slate-950 border-t border-white/10">
+    <div class="max-w-7xl mx-auto px-6 py-8 text-sm text-slate-400 flex flex-col md:flex-row justify-between gap-3">
+      <p>AutoDash CSV — Projet portfolio fictif</p>
+      <p>HTML · Tailwind · JavaScript · Chart.js · CSV</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

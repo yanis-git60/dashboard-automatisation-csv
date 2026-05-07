@@ -1,0 +1,251 @@
+﻿id,date,client,produit,canal,region,commercial,statut,montant,duree_jours,satisfaction
+CMD-0001,2026-03-12,PME Logistique,Maintenance site,Codeur.com,Hauts-de-France,Yanis,Payé,78,11,5
+CMD-0002,2026-01-09,Cabinet Martin,Export PDF,LinkedIn,Hauts-de-France,Sofia,Payé,194,9,5
+CMD-0003,2026-05-20,Auto-école République,Site vitrine,Codeur.com,Grand Est,Nabil,Payé,553,1,3
+CMD-0004,2026-02-09,Coach Performance,Correction bug,Bouche à oreille,Île-de-France,Yanis,Payé,148,7,3
+CMD-0005,2026-01-12,Librairie du Centre,Landing page,Malt,Île-de-France,Emma,Payé,476,2,5
+CMD-0006,2026-01-18,Garage Lenoir,Formulaire web,Codeur.com,Normandie,Yanis,Payé,620,4,3
+CMD-0007,2026-04-04,Boulangerie Moreau,Script Python,Bouche à oreille,Normandie,Sofia,Payé,262,11,4
+CMD-0008,2026-02-13,SAS Lumina,Correction bug,Codeur.com,Hauts-de-France,Emma,Payé,214,7,4
+CMD-0009,2026-03-25,Garage Lenoir,Maintenance site,Codeur.com,Île-de-France,Nabil,Payé,226,7,4
+CMD-0010,2026-05-26,Clinique Belleville,Automatisation Excel,Codeur.com,Grand Est,Emma,En attente,308,11,
+CMD-0011,2026-03-05,SAS Lumina,Outil candidatures,Malt,Normandie,Emma,Payé,746,10,4
+CMD-0012,2026-02-05,Pharmacie Rivoli,Landing page,Site web,Île-de-France,Yanis,Annulé,0,2,
+CMD-0013,2026-04-19,Atelier Bois & Design,Automatisation CSV,LinkedIn,Grand Est,Emma,Payé,501,10,4
+CMD-0014,2026-01-03,Association Horizon,Export PDF,Malt,Normandie,Nabil,Annulé,0,2,
+CMD-0015,2026-01-01,École privée Saint-Rémy,Formulaire web,Malt,Hauts-de-France,Yanis,Payé,695,11,4
+CMD-0016,2026-02-09,Restaurant Le Safran,Maintenance site,Codeur.com,Nouvelle-Aquitaine,Yanis,Payé,179,10,4
+CMD-0017,2026-04-03,Consultant Finance,Outil candidatures,Codeur.com,Île-de-France,Sofia,Payé,619,10,3
+CMD-0018,2026-01-18,SAS Lumina,Automatisation Excel,Codeur.com,Hauts-de-France,Emma,Payé,574,9,3
+CMD-0019,2026-04-19,Coach Performance,Formulaire web,Malt,Hauts-de-France,Nabil,En attente,790,7,
+CMD-0020,2026-05-13,Librairie du Centre,Maintenance site,LinkedIn,Hauts-de-France,Sofia,Payé,216,2,4
+CMD-0021,2026-01-02,Studio Nova,Site vitrine,LinkedIn,Hauts-de-France,Yanis,Payé,585,1,4
+CMD-0022,2026-05-05,Coach Performance,Automatisation Excel,Malt,Hauts-de-France,Emma,Payé,463,4,4
+CMD-0023,2026-04-21,Restaurant Le Safran,Script Python,Site web,Grand Est,Emma,Payé,217,12,3
+CMD-0024,2026-01-26,Garage Lenoir,Maintenance site,Site web,Normandie,Yanis,Annulé,0,4,
+CMD-0025,2026-02-05,Auto-école République,Dashboard,Codeur.com,Normandie,Emma,Payé,644,4,3
+CMD-0026,2026-05-21,Association Horizon,Outil candidatures,LinkedIn,Nouvelle-Aquitaine,Yanis,En attente,1427,2,
+CMD-0027,2026-05-04,Coach Performance,Dashboard,Site web,Île-de-France,Sofia,Payé,620,7,3
+CMD-0028,2026-04-27,Consultant Finance,Script Python,Site web,Nouvelle-Aquitaine,Emma,Annulé,0,3,
+CMD-0029,2026-01-15,Association Sport Plus,Dashboard,Malt,Île-de-France,Nabil,Payé,753,1,3
+CMD-0030,2026-05-16,Boulangerie Moreau,Nettoyage de données,LinkedIn,Nouvelle-Aquitaine,Yanis,Payé,344,3,3
+CMD-0031,2026-03-02,Agence Immo Delta,Nettoyage de données,LinkedIn,Nouvelle-Aquitaine,Sofia,Payé,134,10,5
+CMD-0032,2026-05-30,Association Sport Plus,Site vitrine,Malt,Normandie,Nabil,Payé,433,4,5
+CMD-0033,2026-04-12,Cabinet RH Atlas,Correction bug,Bouche à oreille,Grand Est,Nabil,Payé,120,2,3
+CMD-0034,2026-01-26,Studio Nova,Outil candidatures,Malt,Hauts-de-France,Nabil,Annulé,0,3,
+CMD-0035,2026-04-05,Consultant Finance,Landing page,Codeur.com,Grand Est,Nabil,En attente,335,10,
+CMD-0036,2026-05-22,Consultant Finance,Maintenance site,LinkedIn,Hauts-de-France,Nabil,Payé,185,2,3
+CMD-0037,2026-03-14,Atelier Bois & Design,Correction bug,Codeur.com,Normandie,Sofia,Payé,181,11,5
+CMD-0038,2026-01-14,Studio Nova,Formulaire web,Site web,Normandie,Yanis,Payé,767,1,4
+CMD-0039,2026-02-11,Librairie du Centre,Automatisation CSV,Malt,Grand Est,Yanis,Annulé,0,2,
+CMD-0040,2026-02-08,SAS Lumina,Automatisation Excel,LinkedIn,Normandie,Sofia,En attente,683,7,
+CMD-0041,2026-01-11,Restaurant Le Safran,Automatisation CSV,Codeur.com,Hauts-de-France,Yanis,Payé,201,6,5
+CMD-0042,2026-03-02,Boulangerie Moreau,Script Python,Codeur.com,Grand Est,Yanis,En attente,437,3,
+CMD-0043,2026-04-16,PME Logistique,Correction bug,Bouche à oreille,Hauts-de-France,Yanis,En attente,125,7,
+CMD-0044,2026-04-28,Restaurant Le Safran,Site vitrine,Bouche à oreille,Hauts-de-France,Sofia,Payé,831,1,5
+CMD-0045,2026-01-18,École privée Saint-Rémy,Dashboard,Bouche à oreille,Nouvelle-Aquitaine,Emma,Payé,858,11,5
+CMD-0046,2026-03-08,Boulangerie Moreau,Landing page,Malt,Normandie,Yanis,Payé,314,2,5
+CMD-0047,2026-03-22,Auto-école République,Script Python,Malt,Nouvelle-Aquitaine,Yanis,En attente,296,7,
+CMD-0048,2026-04-22,Cabinet Martin,Nettoyage de données,Malt,Nouvelle-Aquitaine,Sofia,Payé,197,6,4
+CMD-0049,2026-03-26,Atelier Bois & Design,Automatisation Excel,Bouche à oreille,Île-de-France,Nabil,Payé,685,9,4
+CMD-0050,2026-03-17,SAS Lumina,Maintenance site,Codeur.com,Hauts-de-France,Emma,Payé,154,11,4
+CMD-0051,2026-05-26,Consultant Finance,Maintenance site,Site web,Nouvelle-Aquitaine,Yanis,En attente,241,5,
+CMD-0052,2026-05-29,Atelier Bois & Design,Formulaire web,Bouche à oreille,Grand Est,Emma,Payé,465,8,5
+CMD-0053,2026-02-13,Studio Nova,Dashboard,Bouche à oreille,Nouvelle-Aquitaine,Nabil,Payé,973,2,3
+CMD-0054,2026-02-20,Cabinet RH Atlas,Maintenance site,LinkedIn,Île-de-France,Sofia,Payé,129,8,5
+CMD-0055,2026-05-28,Coach Performance,Automatisation Excel,Site web,Grand Est,Emma,Payé,433,4,3
+CMD-0056,2026-01-28,Auto-école République,Maintenance site,Codeur.com,Hauts-de-France,Emma,Payé,226,1,5
+CMD-0057,2026-04-29,Pharmacie Rivoli,Dashboard,Malt,Nouvelle-Aquitaine,Nabil,Payé,574,8,5
+CMD-0058,2026-05-21,Librairie du Centre,Correction bug,Codeur.com,Grand Est,Emma,Payé,169,5,3
+CMD-0059,2026-05-14,Salon Élégance,Maintenance site,Codeur.com,Normandie,Emma,En attente,120,2,
+CMD-0060,2026-03-27,Clinique Belleville,Correction bug,Malt,Île-de-France,Sofia,Payé,113,3,3
+CMD-0061,2026-02-24,Studio Nova,Script Python,Site web,Grand Est,Nabil,Payé,475,9,4
+CMD-0062,2026-04-18,Agence Immo Delta,Script Python,Malt,Île-de-France,Emma,Payé,151,8,3
+CMD-0063,2026-04-18,SAS Lumina,Landing page,Malt,Nouvelle-Aquitaine,Sofia,En attente,452,8,
+CMD-0064,2026-01-08,Agence Immo Delta,Dashboard,Bouche à oreille,Grand Est,Sofia,Payé,729,8,3
+CMD-0065,2026-04-11,Association Sport Plus,Nettoyage de données,Malt,Île-de-France,Yanis,Payé,373,11,4
+CMD-0066,2026-01-13,École privée Saint-Rémy,Automatisation CSV,Site web,Normandie,Sofia,Payé,623,8,4
+CMD-0067,2026-03-13,Auto-école République,Landing page,Bouche à oreille,Île-de-France,Emma,En attente,689,1,
+CMD-0068,2026-03-31,PME Logistique,Correction bug,LinkedIn,Île-de-France,Yanis,Payé,178,4,3
+CMD-0069,2026-05-02,Association Horizon,Site vitrine,Malt,Hauts-de-France,Emma,Payé,506,12,4
+CMD-0070,2026-01-30,Boulangerie Moreau,Landing page,Bouche à oreille,Île-de-France,Yanis,Payé,385,5,5
+CMD-0071,2026-02-20,Studio Nova,Maintenance site,Malt,Hauts-de-France,Yanis,Payé,146,12,4
+CMD-0072,2026-05-25,Garage Lenoir,Maintenance site,Bouche à oreille,Nouvelle-Aquitaine,Emma,En attente,203,11,
+CMD-0073,2026-03-29,Cabinet Martin,Landing page,Site web,Grand Est,Yanis,Payé,335,7,4
+CMD-0074,2026-04-22,Boulangerie Moreau,Maintenance site,Malt,Normandie,Emma,Payé,167,8,4
+CMD-0075,2026-03-04,Studio Nova,Correction bug,Bouche à oreille,Grand Est,Sofia,Payé,191,8,5
+CMD-0076,2026-05-07,Clinique Belleville,Nettoyage de données,Codeur.com,Grand Est,Sofia,Payé,294,6,4
+CMD-0077,2026-03-12,SAS Lumina,Landing page,LinkedIn,Nouvelle-Aquitaine,Sofia,En attente,443,2,
+CMD-0078,2026-05-23,PME Logistique,Dashboard,Site web,Grand Est,Emma,Payé,1187,1,3
+CMD-0079,2026-03-04,Consultant Finance,Formulaire web,Malt,Normandie,Emma,Payé,476,9,5
+CMD-0080,2026-05-21,Clinique Belleville,Landing page,Bouche à oreille,Grand Est,Nabil,Annulé,0,5,
+CMD-0081,2026-02-19,Clinique Belleville,Formulaire web,LinkedIn,Nouvelle-Aquitaine,Sofia,Payé,486,4,3
+CMD-0082,2026-05-31,Pharmacie Rivoli,Correction bug,Malt,Normandie,Yanis,Payé,163,4,4
+CMD-0083,2026-01-04,SAS Lumina,Dashboard,Codeur.com,Normandie,Yanis,Payé,819,1,5
+CMD-0084,2026-05-06,Association Horizon,Formulaire web,LinkedIn,Nouvelle-Aquitaine,Nabil,Payé,379,8,4
+CMD-0085,2026-01-14,École privée Saint-Rémy,Outil candidatures,Site web,Île-de-France,Yanis,Payé,948,7,4
+CMD-0086,2026-01-14,Cabinet RH Atlas,Automatisation Excel,Codeur.com,Nouvelle-Aquitaine,Nabil,Payé,495,2,3
+CMD-0087,2026-02-27,Pharmacie Rivoli,Automatisation Excel,Site web,Grand Est,Emma,En attente,485,5,
+CMD-0088,2026-01-16,Atelier Bois & Design,Nettoyage de données,LinkedIn,Hauts-de-France,Sofia,Payé,319,5,5
+CMD-0089,2026-05-22,Studio Nova,Automatisation Excel,Codeur.com,Île-de-France,Emma,Payé,280,8,5
+CMD-0090,2026-03-01,Consultant Finance,Nettoyage de données,Bouche à oreille,Grand Est,Yanis,Payé,340,11,3
+CMD-0091,2026-05-20,PME Logistique,Formulaire web,Codeur.com,Normandie,Sofia,Payé,452,2,3
+CMD-0092,2026-05-26,Consultant Finance,Automatisation CSV,Site web,Île-de-France,Emma,Payé,585,12,4
+CMD-0093,2026-05-09,SAS Lumina,Correction bug,Site web,Grand Est,Yanis,Annulé,0,10,
+CMD-0094,2026-03-06,Cabinet Martin,Site vitrine,LinkedIn,Hauts-de-France,Yanis,En attente,792,11,
+CMD-0095,2026-02-14,Salon Élégance,Formulaire web,Malt,Grand Est,Nabil,En attente,291,3,
+CMD-0096,2026-05-06,Studio Nova,Nettoyage de données,Site web,Normandie,Emma,Payé,323,6,4
+CMD-0097,2026-03-26,Auto-école République,Maintenance site,Site web,Normandie,Emma,En attente,76,9,
+CMD-0098,2026-03-06,Clinique Belleville,Site vitrine,LinkedIn,Grand Est,Yanis,Payé,815,11,5
+CMD-0099,2026-05-13,Restaurant Le Safran,Outil candidatures,Malt,Grand Est,Emma,Payé,1023,1,3
+CMD-0100,2026-04-23,Salon Élégance,Formulaire web,LinkedIn,Île-de-France,Sofia,Annulé,0,12,
+CMD-0101,2026-05-22,Auto-école République,Automatisation CSV,LinkedIn,Hauts-de-France,Yanis,Payé,339,8,3
+CMD-0102,2026-03-16,Pharmacie Rivoli,Maintenance site,Bouche à oreille,Grand Est,Emma,Payé,89,8,3
+CMD-0103,2026-02-18,Atelier Bois & Design,Outil candidatures,Malt,Hauts-de-France,Yanis,Payé,1164,5,4
+CMD-0104,2026-01-01,Consultant Finance,Landing page,Bouche à oreille,Nouvelle-Aquitaine,Emma,Payé,559,3,4
+CMD-0105,2026-05-22,SAS Lumina,Export PDF,Site web,Grand Est,Nabil,Payé,397,4,5
+CMD-0106,2026-04-16,Garage Lenoir,Dashboard,Bouche à oreille,Grand Est,Emma,Payé,1035,7,5
+CMD-0107,2026-01-10,Cabinet RH Atlas,Maintenance site,Malt,Nouvelle-Aquitaine,Nabil,Payé,88,2,4
+CMD-0108,2026-01-04,Cabinet RH Atlas,Automatisation Excel,Site web,Hauts-de-France,Yanis,En attente,469,8,
+CMD-0109,2026-04-12,Studio Nova,Formulaire web,Bouche à oreille,Nouvelle-Aquitaine,Emma,Payé,596,6,5
+CMD-0110,2026-01-10,Atelier Bois & Design,Correction bug,LinkedIn,Hauts-de-France,Nabil,En attente,164,4,
+CMD-0111,2026-01-26,Association Horizon,Correction bug,Site web,Hauts-de-France,Nabil,Payé,63,1,3
+CMD-0112,2026-04-06,Auto-école République,Landing page,Codeur.com,Hauts-de-France,Emma,Payé,328,10,5
+CMD-0113,2026-04-08,Atelier Bois & Design,Automatisation CSV,Codeur.com,Grand Est,Sofia,Payé,267,4,4
+CMD-0114,2026-01-03,Librairie du Centre,Maintenance site,Bouche à oreille,Nouvelle-Aquitaine,Sofia,Payé,115,2,4
+CMD-0115,2026-04-19,École privée Saint-Rémy,Landing page,Site web,Normandie,Sofia,Payé,600,7,4
+CMD-0116,2026-04-02,Association Sport Plus,Automatisation Excel,Bouche à oreille,Normandie,Yanis,Payé,321,11,4
+CMD-0117,2026-01-13,Atelier Bois & Design,Formulaire web,Site web,Normandie,Sofia,Payé,258,10,4
+CMD-0118,2026-03-06,Cabinet RH Atlas,Dashboard,LinkedIn,Île-de-France,Nabil,Payé,1101,8,3
+CMD-0119,2026-01-24,Consultant Finance,Nettoyage de données,Bouche à oreille,Grand Est,Sofia,En attente,286,4,
+CMD-0120,2026-04-04,Pharmacie Rivoli,Automatisation CSV,Malt,Normandie,Sofia,Payé,582,5,4
+CMD-0121,2026-04-30,Studio Nova,Formulaire web,Codeur.com,Hauts-de-France,Emma,En attente,596,9,
+CMD-0122,2026-01-04,École privée Saint-Rémy,Landing page,Malt,Île-de-France,Emma,En attente,346,6,
+CMD-0123,2026-05-30,Agence Immo Delta,Maintenance site,Bouche à oreille,Île-de-France,Sofia,Payé,241,8,3
+CMD-0124,2026-02-26,Studio Nova,Nettoyage de données,Site web,Normandie,Emma,Payé,387,2,3
+CMD-0125,2026-05-07,Association Horizon,Site vitrine,LinkedIn,Hauts-de-France,Sofia,Payé,388,7,4
+CMD-0126,2026-05-19,Auto-école République,Landing page,Malt,Hauts-de-France,Emma,Annulé,0,11,
+CMD-0127,2026-04-15,École privée Saint-Rémy,Automatisation Excel,LinkedIn,Normandie,Sofia,Payé,626,8,4
+CMD-0128,2026-04-05,SAS Lumina,Dashboard,Bouche à oreille,Île-de-France,Emma,Payé,821,5,3
+CMD-0129,2026-04-27,Studio Nova,Automatisation Excel,Codeur.com,Nouvelle-Aquitaine,Yanis,En attente,685,1,
+CMD-0130,2026-05-25,Coach Performance,Landing page,LinkedIn,Nouvelle-Aquitaine,Sofia,Annulé,0,10,
+CMD-0131,2026-03-26,Cabinet RH Atlas,Dashboard,Malt,Île-de-France,Nabil,En attente,1282,3,
+CMD-0132,2026-02-14,Association Horizon,Automatisation CSV,LinkedIn,Hauts-de-France,Yanis,Payé,456,6,3
+CMD-0133,2026-03-09,Garage Lenoir,Nettoyage de données,Codeur.com,Grand Est,Yanis,Payé,265,12,3
+CMD-0134,2026-05-12,Association Sport Plus,Outil candidatures,LinkedIn,Grand Est,Sofia,En attente,1059,10,
+CMD-0135,2026-01-08,Garage Lenoir,Site vitrine,Site web,Grand Est,Emma,Payé,883,11,3
+CMD-0136,2026-01-19,Studio Nova,Outil candidatures,Bouche à oreille,Nouvelle-Aquitaine,Sofia,En attente,1329,2,
+CMD-0137,2026-05-30,SAS Lumina,Automatisation CSV,Bouche à oreille,Grand Est,Nabil,Payé,320,8,5
+CMD-0138,2026-01-30,SAS Lumina,Nettoyage de données,Codeur.com,Grand Est,Emma,Payé,320,4,4
+CMD-0139,2026-01-25,Clinique Belleville,Landing page,Site web,Normandie,Nabil,Payé,532,6,3
+CMD-0140,2026-01-22,Studio Nova,Maintenance site,Site web,Île-de-France,Nabil,Payé,171,3,5
+CMD-0141,2026-04-16,Restaurant Le Safran,Site vitrine,Site web,Île-de-France,Nabil,Payé,687,10,4
+CMD-0142,2026-02-24,Cabinet RH Atlas,Landing page,Site web,Hauts-de-France,Yanis,Payé,353,6,5
+CMD-0143,2026-05-27,PME Logistique,Landing page,Site web,Nouvelle-Aquitaine,Yanis,En attente,358,10,
+CMD-0144,2026-02-16,École privée Saint-Rémy,Maintenance site,Bouche à oreille,Normandie,Nabil,Payé,227,1,3
+CMD-0145,2026-01-18,Cabinet RH Atlas,Automatisation CSV,LinkedIn,Île-de-France,Sofia,Payé,469,7,4
+CMD-0146,2026-03-21,Clinique Belleville,Outil candidatures,Malt,Nouvelle-Aquitaine,Yanis,Payé,949,1,3
+CMD-0147,2026-01-21,École privée Saint-Rémy,Automatisation CSV,Site web,Grand Est,Emma,Payé,566,10,4
+CMD-0148,2026-05-12,Association Horizon,Script Python,Bouche à oreille,Grand Est,Yanis,Payé,259,5,5
+CMD-0149,2026-03-20,Garage Lenoir,Maintenance site,Codeur.com,Grand Est,Yanis,Payé,201,1,3
+CMD-0150,2026-03-07,Consultant Finance,Formulaire web,Bouche à oreille,Île-de-France,Yanis,En attente,466,8,
+CMD-0151,2026-04-08,SAS Lumina,Correction bug,Codeur.com,Nouvelle-Aquitaine,Nabil,Payé,150,2,4
+CMD-0152,2026-04-28,Studio Nova,Correction bug,Bouche à oreille,Nouvelle-Aquitaine,Emma,Payé,50,10,4
+CMD-0153,2026-01-30,Agence Immo Delta,Correction bug,LinkedIn,Normandie,Sofia,Payé,203,10,4
+CMD-0154,2026-01-28,PME Logistique,Correction bug,Site web,Nouvelle-Aquitaine,Emma,Payé,132,9,3
+CMD-0155,2026-02-26,Clinique Belleville,Script Python,Codeur.com,Île-de-France,Yanis,En attente,278,9,
+CMD-0156,2026-03-31,Restaurant Le Safran,Export PDF,Codeur.com,Hauts-de-France,Yanis,En attente,249,3,
+CMD-0157,2026-02-09,Studio Nova,Formulaire web,Codeur.com,Grand Est,Emma,Payé,452,10,5
+CMD-0158,2026-05-25,Atelier Bois & Design,Outil candidatures,Bouche à oreille,Normandie,Sofia,Annulé,0,8,
+CMD-0159,2026-03-19,École privée Saint-Rémy,Automatisation Excel,Malt,Île-de-France,Nabil,Payé,440,9,3
+CMD-0160,2026-01-15,Restaurant Le Safran,Formulaire web,Bouche à oreille,Île-de-France,Yanis,Payé,722,10,5
+CMD-0161,2026-05-22,Garage Lenoir,Export PDF,Site web,Nouvelle-Aquitaine,Sofia,Payé,346,6,5
+CMD-0162,2026-01-16,Librairie du Centre,Outil candidatures,LinkedIn,Normandie,Yanis,Payé,1113,9,5
+CMD-0163,2026-04-23,Librairie du Centre,Automatisation CSV,Malt,Nouvelle-Aquitaine,Sofia,Payé,200,6,4
+CMD-0164,2026-03-28,Atelier Bois & Design,Formulaire web,LinkedIn,Normandie,Yanis,Payé,646,6,3
+CMD-0165,2026-02-08,Clinique Belleville,Export PDF,LinkedIn,Nouvelle-Aquitaine,Sofia,Payé,347,6,4
+CMD-0166,2026-02-03,Atelier Bois & Design,Maintenance site,LinkedIn,Normandie,Emma,Payé,228,11,4
+CMD-0167,2026-05-15,Studio Nova,Automatisation CSV,Site web,Nouvelle-Aquitaine,Nabil,Payé,523,1,4
+CMD-0168,2026-03-29,Salon Élégance,Formulaire web,Codeur.com,Hauts-de-France,Sofia,Annulé,0,3,
+CMD-0169,2026-01-26,Pharmacie Rivoli,Automatisation Excel,Malt,Nouvelle-Aquitaine,Yanis,En attente,351,11,
+CMD-0170,2026-04-07,Cabinet RH Atlas,Landing page,Codeur.com,Hauts-de-France,Sofia,Payé,692,12,4
+CMD-0171,2026-03-02,Librairie du Centre,Site vitrine,Malt,Normandie,Emma,Payé,770,4,5
+CMD-0172,2026-05-01,Coach Performance,Dashboard,Bouche à oreille,Nouvelle-Aquitaine,Emma,Annulé,0,8,
+CMD-0173,2026-04-18,Boulangerie Moreau,Formulaire web,Codeur.com,Nouvelle-Aquitaine,Sofia,Payé,641,5,3
+CMD-0174,2026-05-22,Association Horizon,Maintenance site,Malt,Île-de-France,Nabil,En attente,173,2,
+CMD-0175,2026-05-12,Cabinet RH Atlas,Automatisation CSV,Site web,Île-de-France,Sofia,Payé,319,8,4
+CMD-0176,2026-05-09,Restaurant Le Safran,Site vitrine,Codeur.com,Grand Est,Yanis,Payé,774,6,3
+CMD-0177,2026-03-27,Cabinet RH Atlas,Site vitrine,Codeur.com,Île-de-France,Nabil,Annulé,0,8,
+CMD-0178,2026-05-01,Librairie du Centre,Correction bug,Malt,Île-de-France,Yanis,En attente,75,1,
+CMD-0179,2026-05-21,Atelier Bois & Design,Formulaire web,Malt,Grand Est,Yanis,En attente,470,5,
+CMD-0180,2026-03-03,Auto-école République,Dashboard,Malt,Grand Est,Yanis,Payé,758,2,4
+CMD-0181,2026-05-12,Association Sport Plus,Nettoyage de données,Codeur.com,Hauts-de-France,Nabil,Payé,374,7,3
+CMD-0182,2026-04-17,Boulangerie Moreau,Nettoyage de données,LinkedIn,Nouvelle-Aquitaine,Nabil,Payé,280,2,5
+CMD-0183,2026-05-10,SAS Lumina,Export PDF,LinkedIn,Grand Est,Emma,En attente,409,1,
+CMD-0184,2026-03-06,Cabinet Martin,Maintenance site,Bouche à oreille,Île-de-France,Nabil,Annulé,0,4,
+CMD-0185,2026-05-29,Clinique Belleville,Correction bug,Codeur.com,Île-de-France,Nabil,Payé,208,9,4
+CMD-0186,2026-04-29,Salon Élégance,Maintenance site,Codeur.com,Hauts-de-France,Yanis,En attente,94,12,
+CMD-0187,2026-01-12,Coach Performance,Outil candidatures,LinkedIn,Normandie,Nabil,Payé,637,9,4
+CMD-0188,2026-02-18,Consultant Finance,Export PDF,Bouche à oreille,Île-de-France,Nabil,Payé,392,5,3
+CMD-0189,2026-04-23,Agence Immo Delta,Landing page,Bouche à oreille,Hauts-de-France,Emma,En attente,523,12,
+CMD-0190,2026-05-13,École privée Saint-Rémy,Outil candidatures,LinkedIn,Grand Est,Yanis,Annulé,0,7,
+CMD-0191,2026-03-24,Association Horizon,Nettoyage de données,LinkedIn,Normandie,Nabil,Payé,192,5,4
+CMD-0192,2026-04-24,Restaurant Le Safran,Nettoyage de données,Site web,Île-de-France,Nabil,Payé,318,10,4
+CMD-0193,2026-04-14,Restaurant Le Safran,Formulaire web,Malt,Hauts-de-France,Yanis,Payé,308,3,5
+CMD-0194,2026-02-02,Studio Nova,Maintenance site,Codeur.com,Normandie,Nabil,Payé,250,7,5
+CMD-0195,2026-04-05,Restaurant Le Safran,Site vitrine,Site web,Île-de-France,Sofia,Payé,507,9,4
+CMD-0196,2026-03-05,Association Horizon,Script Python,LinkedIn,Hauts-de-France,Emma,Payé,280,9,4
+CMD-0197,2026-03-08,Librairie du Centre,Export PDF,Codeur.com,Nouvelle-Aquitaine,Nabil,Payé,210,12,4
+CMD-0198,2026-01-19,Librairie du Centre,Dashboard,Codeur.com,Grand Est,Yanis,Payé,575,11,4
+CMD-0199,2026-05-21,SAS Lumina,Maintenance site,Bouche à oreille,Normandie,Sofia,Payé,138,12,5
+CMD-0200,2026-04-03,Pharmacie Rivoli,Correction bug,Codeur.com,Île-de-France,Sofia,Payé,203,3,3
+CMD-0201,2026-05-27,Restaurant Le Safran,Outil candidatures,Site web,Nouvelle-Aquitaine,Sofia,Payé,626,10,3
+CMD-0202,2026-05-03,Pharmacie Rivoli,Automatisation Excel,Site web,Grand Est,Yanis,Payé,358,3,4
+CMD-0203,2026-05-13,Restaurant Le Safran,Maintenance site,Codeur.com,Nouvelle-Aquitaine,Sofia,Payé,68,3,4
+CMD-0204,2026-05-13,Cabinet RH Atlas,Export PDF,Bouche à oreille,Hauts-de-France,Sofia,En attente,178,6,
+CMD-0205,2026-05-13,Consultant Finance,Correction bug,LinkedIn,Normandie,Sofia,Payé,97,11,5
+CMD-0206,2026-05-17,Studio Nova,Formulaire web,Malt,Hauts-de-France,Sofia,Payé,378,3,5
+CMD-0207,2026-05-25,Garage Lenoir,Nettoyage de données,LinkedIn,Île-de-France,Yanis,En attente,272,11,
+CMD-0208,2026-05-27,Auto-école République,Nettoyage de données,Malt,Île-de-France,Emma,Payé,235,11,5
+CMD-0209,2026-04-14,Consultant Finance,Formulaire web,Site web,Île-de-France,Yanis,Payé,559,3,4
+CMD-0210,2026-03-29,Atelier Bois & Design,Script Python,Codeur.com,Normandie,Nabil,Payé,367,12,4
+CMD-0211,2026-05-12,SAS Lumina,Script Python,LinkedIn,Normandie,Sofia,En attente,186,8,
+CMD-0212,2026-02-06,Association Horizon,Automatisation Excel,LinkedIn,Normandie,Emma,Payé,336,10,4
+CMD-0213,2026-05-28,Clinique Belleville,Dashboard,Codeur.com,Hauts-de-France,Emma,En attente,613,9,
+CMD-0214,2026-05-08,Cabinet Martin,Outil candidatures,LinkedIn,Grand Est,Emma,En attente,1110,4,
+CMD-0215,2026-01-13,Consultant Finance,Dashboard,Site web,Nouvelle-Aquitaine,Emma,Payé,1047,5,5
+CMD-0216,2026-03-09,Restaurant Le Safran,Site vitrine,Site web,Normandie,Yanis,Payé,460,7,3
+CMD-0217,2026-05-22,Consultant Finance,Nettoyage de données,LinkedIn,Grand Est,Emma,Payé,387,9,4
+CMD-0218,2026-01-25,Agence Immo Delta,Nettoyage de données,Bouche à oreille,Normandie,Nabil,Payé,160,3,3
+CMD-0219,2026-01-11,Garage Lenoir,Nettoyage de données,LinkedIn,Hauts-de-France,Nabil,Payé,360,8,5
+CMD-0220,2026-05-12,Cabinet RH Atlas,Outil candidatures,Bouche à oreille,Nouvelle-Aquitaine,Nabil,Payé,752,3,4
+CMD-0221,2026-05-10,Pharmacie Rivoli,Nettoyage de données,Malt,Grand Est,Nabil,Payé,253,8,3
+CMD-0222,2026-04-17,Association Sport Plus,Landing page,Bouche à oreille,Île-de-France,Emma,Payé,469,5,5
+CMD-0223,2026-01-14,Association Sport Plus,Nettoyage de données,Site web,Hauts-de-France,Emma,Payé,395,3,5
+CMD-0224,2026-01-29,Coach Performance,Dashboard,LinkedIn,Grand Est,Nabil,Payé,482,7,3
+CMD-0225,2026-05-09,Atelier Bois & Design,Script Python,Site web,Île-de-France,Sofia,Payé,473,9,3
+CMD-0226,2026-05-03,Pharmacie Rivoli,Export PDF,Site web,Normandie,Sofia,Annulé,0,8,
+CMD-0227,2026-03-09,Atelier Bois & Design,Export PDF,Site web,Hauts-de-France,Sofia,Payé,325,5,5
+CMD-0228,2026-03-18,Consultant Finance,Formulaire web,Codeur.com,Grand Est,Nabil,Annulé,0,8,
+CMD-0229,2026-03-12,Consultant Finance,Landing page,LinkedIn,Nouvelle-Aquitaine,Emma,Annulé,0,7,
+CMD-0230,2026-03-16,Garage Lenoir,Landing page,Bouche à oreille,Île-de-France,Nabil,En attente,695,8,
+CMD-0231,2026-02-24,Coach Performance,Maintenance site,Malt,Normandie,Nabil,En attente,115,3,
+CMD-0232,2026-03-03,PME Logistique,Automatisation Excel,LinkedIn,Nouvelle-Aquitaine,Sofia,En attente,515,11,
+CMD-0233,2026-03-26,Salon Élégance,Dashboard,LinkedIn,Hauts-de-France,Yanis,Payé,503,9,3
+CMD-0234,2026-05-02,Salon Élégance,Script Python,Codeur.com,Normandie,Nabil,Annulé,0,5,
+CMD-0235,2026-01-23,Association Sport Plus,Maintenance site,Codeur.com,Nouvelle-Aquitaine,Yanis,En attente,65,3,
+CMD-0236,2026-01-10,Agence Immo Delta,Script Python,Site web,Hauts-de-France,Nabil,Annulé,0,1,
+CMD-0237,2026-01-28,Clinique Belleville,Site vitrine,Bouche à oreille,Grand Est,Emma,Payé,655,3,5
+CMD-0238,2026-01-29,Clinique Belleville,Outil candidatures,Codeur.com,Grand Est,Nabil,Payé,879,12,3
+CMD-0239,2026-05-26,Coach Performance,Site vitrine,Codeur.com,Nouvelle-Aquitaine,Emma,En attente,695,7,
+CMD-0240,2026-01-25,Boulangerie Moreau,Export PDF,Codeur.com,Grand Est,Nabil,Payé,317,4,3
+CMD-0241,2026-03-10,Clinique Belleville,Formulaire web,Bouche à oreille,Nouvelle-Aquitaine,Yanis,Payé,642,5,5
+CMD-0242,2026-01-31,Librairie du Centre,Landing page,Bouche à oreille,Hauts-de-France,Emma,Payé,654,11,5
+CMD-0243,2026-03-17,Restaurant Le Safran,Correction bug,Malt,Hauts-de-France,Sofia,Payé,119,3,4
+CMD-0244,2026-04-06,Auto-école République,Automatisation CSV,Malt,Grand Est,Sofia,En attente,412,4,
+CMD-0245,2026-01-21,Pharmacie Rivoli,Maintenance site,Site web,Nouvelle-Aquitaine,Nabil,Payé,243,2,5
+CMD-0246,2026-05-10,Coach Performance,Automatisation Excel,Malt,Nouvelle-Aquitaine,Sofia,En attente,231,3,
+CMD-0247,2026-02-22,Association Sport Plus,Landing page,Site web,Île-de-France,Emma,Payé,566,1,4
+CMD-0248,2026-05-25,Garage Lenoir,Automatisation CSV,Malt,Grand Est,Nabil,Payé,442,12,3
+CMD-0249,2026-02-25,Association Sport Plus,Script Python,LinkedIn,Île-de-France,Emma,En attente,250,6,
+CMD-0250,2026-01-16,Studio Nova,Correction bug,Site web,Île-de-France,Nabil,Payé,56,7,3
